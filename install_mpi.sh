@@ -15,7 +15,7 @@ sudo echo "done make all install" >> /ISITDONE.log
 cd ..
 sudo rm -Rf openmpi-3.1.2
 sudo rm -Rf openmpi-3.1.2.tar.gz
-sudo echo "export PATH='$PATH:/software/openmpi/3.1.2/bin'" >> /users/ab899511/.bashrc
-sudo echo "export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/software/openmpi/3.1.2/lib/'" >> /users/ab899511/.bashrc
+sudo echo "export PATH='$PATH:/software/openmpi/3.1.2/bin'" >> /users/jt876084/.bashrc
+sudo echo "export LD_LIBRARY_PATH='$LD_LIBRARY_PATH:/software/openmpi/3.1.2/lib/'" >> /users/jt876084/.bashrc
 source ~/.bashrc
 sudo echo "all done" >> /ISITDONE.log
