@@ -83,8 +83,8 @@ cat $PUBKEY >> $SSHDIR/authorized_keys
 chmod 600 $SSHDIR/authorized_keys
 
 
-CUSTOM_USER=ab899511
-CUSTOM_SSHDIR=/users/ab899511/.ssh
+CUSTOM_USER=jt876084
+CUSTOM_SSHDIR=/users/jt876084/.ssh
 CUSTOM_GROUP=`id -gn ${CUSTOM_USER}`
 
 cp $PRIVKEY ${CUSTOM_SSHDIR}
@@ -93,7 +93,7 @@ cat $PUBKEY >> ${CUSTOM_SSHDIR}/authorized_keys
 chown -R ${CUSTOM_USER}:${CUSTOM_GROUP} ${CUSTOM_SSHDIR}
 # su lngo -c 'echo "StrictHostKeyChecking no" > ${CUSTOM_SSHDIR}/config'
 
-sudo touch /users/ab899511/.ssh/config
-sudo echo "StrictHostKeyChecking no" | sudo tee --append /users/ab899511/.ssh/config
+sudo touch /users/jt876084/.ssh/config
+sudo echo "StrictHostKeyChecking no" | sudo tee --append /users/jt876084/.ssh/config
 
 exit 0
