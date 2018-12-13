@@ -60,9 +60,9 @@ for i in range(15):
   
     # Ben Walker's solution to address latency
   node.addService(pg.Execute(shell="sh", command="sudo chmod 755 /local/repository/ssh_setup.sh"))
-  node.addService(pg.Execute(shell="sh", command="sudo -H -u ab899511 bash -c '/local/repository/ssh_setup.sh'"))
+  node.addService(pg.Execute(shell="sh", command="sudo -H -u jt876084 bash -c '/local/repository/ssh_setup.sh'"))
  
-  node.addService(pg.Execute(shell="sh", command="sudo su ab899511 -c 'cp /local/repository/source/* /users/ab899511'"))
+  node.addService(pg.Execute(shell="sh", command="sudo su jt876084 -c 'cp /local/repository/source/* /users/jt876084'"))
   
   
   if i == 0: # head
